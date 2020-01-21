@@ -1,0 +1,227 @@
+div.item{
+    border: 1px solid rgb(224, 224, 224);
+
+}
+div.item:hover{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 8px 20px 0 rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+    background-color: rgba(250,250,250,0.7);
+}
+div.item:active{
+    background-color: rgba(199, 199, 199, 0.5);
+    transition: 0.1s;
+}
+.item{
+    width: 150px; 
+    background-color:rgba(250,250, 250, 0.5);
+    
+    display: block;
+    margin: 0 auto;
+    font-family: "Rimouski";
+    border-radius: 10px;
+    padding-bottom : 50px;
+    cursor: pointer;
+}
+
+.title{
+    width: 150px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title p{
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 0.8em;
+    color: #293251;
+}
+
+.heure{
+    background-color: #f8d7da;
+}
+
+.heure p{
+    color:#293251 ;
+    font-size: 1em;
+    margin: 0;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.weather{
+    width: 148px;
+    height: 200px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 150px;
+    height: 100px;
+}
+
+.weather-icon img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+    display: block;
+    padding: 5px;
+}
+
+.temperature{
+    width: 150px;
+}
+
+.temperature p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 2em;
+    text-align: center;
+}
+
+.temperature p:hover{
+    
+}
+
+.temperature span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.description{
+    
+}
+
+.description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.5em;
+}
+
+.location{
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+@font-face {
+    font-family: 'Rimouski';
+    src: url('../../assets/font/rimouski_sb-webfont.woff2') format('woff2'),
+         url('../../assets/font/rimouski_sb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@media screen and (max-width:680px){
+
+    .item{
+        width: 100px; 
+        background-color:rgba(250,250, 250, 0.5);
+        
+        display: block;
+        margin: 0 auto;
+        
+        border-radius: 10px;
+        padding-bottom : 10px;
+        cursor: pointer;
+    }
+    
+    .title{
+        width: 100px;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .title p{
+        text-align: center;
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 0.6em;
+        color: #293251;
+    }
+    
+    .heure{
+        background-color: #f8d7da;
+    }
+    
+    .heure p{
+        color:#293251 ;
+        font-size: 1em;
+        margin: 0;
+        text-align: center;
+        padding: 5px 0;
+    }
+    
+    .weather{
+        width: 98px;
+        height: 120px;
+        background-color: #F4F9FF;
+    }
+    
+    .weather-icon{
+        width: 0px;
+        height: 0px;
+    }
+    
+    .weather-icon img{
+        margin-bottom: 5px;
+        display: none;
+        padding: 5px;
+    }
+    
+    .temperature{
+        width: 100px;
+    }
+    
+    .temperature p{
+        padding: 0;
+        margin: 0;
+        color: #293251;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .temperature p:hover{
+        
+    }
+    
+    .temperature span{
+        color: #293251;
+        font-size: 0.3em;
+    }
+    
+    .description{
+        
+    }
+    
+    .description p{
+        padding: 8px;
+        margin: 0;
+        color: #293251;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    
+    .location{
+        
+    }
+    
+    .location p{
+        margin: 0;
+        padding: 0;
+        color: #293251;
+        text-align: center;
+        font-size: 0.6em;
+    }
+    
+ }
+

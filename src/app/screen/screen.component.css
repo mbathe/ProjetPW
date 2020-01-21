@@ -1,0 +1,285 @@
+
+.item{
+    width: 700px; 
+    height: 500px;
+    background-color:rgba(250,250,250,0.5);
+    display: block;
+    margin-left: 300px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    padding-bottom : 100px;
+    
+}
+
+.title{
+    width: 700px;
+    border-radius: 10px 10px 0 0;
+}
+
+.title p{
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    font-size: 3em;
+    color: #293251;
+}
+
+.heure{
+    background-color: #f8d7da;
+}
+
+.heure p{
+    color:#293251 ;
+    font-size: 5em;
+    margin: 0;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.weather{
+    width: 700px;
+    height: 350px;
+    background-color: #F4F9FF;
+}
+
+.weather-icon{
+    width: 350px;
+    height: 150px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+.temperature{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
+
+.temperature p{
+    padding:0;
+    margin: 2px;
+    color: #293251;
+    font-size: 8em;
+    text-align: center;
+}
+
+.temperature p:hover{
+    
+}
+
+.temperature span{
+    color: #293251;
+    font-size: 2em;
+}
+
+.description{
+    
+}
+
+.description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.location{
+    margin-top: 10px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 2em;
+}
+.location img{
+    width: 25px;
+    height: 25px;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row;
+}
+.pluviometrie{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+   }
+   .pluviometrie p{
+    padding: 10px;
+   float:left;
+   font-size: 20px;
+   }
+   .humidity{
+   width: 350px;
+   padding: 10px;
+   }
+   .humidity p {
+    float:right;
+    padding: 0;
+    font-size: 20px;
+    margin-right: 10px; 
+  
+   }
+
+   @media screen and (max-width:680px){
+    .item{
+        width: 200px; 
+        height: 250px;
+        background-color:rgba(250,250,250,0.5);
+        display: block;
+        border: 1px solid rgb(224, 224, 224);
+        border-radius: 10px;
+        padding-bottom : 10px;
+        cursor: pointer;
+        margin-left: 30px;
+       
+    }
+
+    .title{
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .title p{
+        text-align: center;
+        padding: 5px;
+        margin: 0 auto;
+        font-size: 1em;
+        color: #293251;
+    }
+    
+    .heure{
+        background-color: #f8d7da;
+    }
+    
+    .heure p{
+        color:#293251 ;
+        font-size: 5em;
+        margin: 0;
+        text-align: center;
+        padding: 15px 0;
+    }
+    
+    .weather{
+        width: 200px;
+        height: 175px;
+        background-color: #F4F9FF;
+    }
+    
+    .weather-icon{
+        width: 75px;
+        height: 100px;
+    }
+    
+    .weather-icon img{
+        display: block;
+        margin: 0 auto;
+        width: 75px;
+        height: 75px;
+        float: right;
+    }
+    
+    .temperature{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+    }
+    
+    .temperature p{
+        padding:0;
+        margin: 2px;
+        color: #293251;
+        font-size: 3em;
+        text-align: center;
+    }
+    
+    .temperature p:hover{
+        
+    }
+    
+    .temperature span{
+        color: #293251;
+        font-size: 0.7em;
+    }
+    
+    .description{
+        
+    }
+    
+    .description p{
+        padding: 2px;
+        margin: 0;
+        color: #293251;
+        text-align: center;
+        font-size: 0.7em;
+    }
+    
+    .location{
+        
+    }
+    
+    .location p{
+        margin:5px;
+        padding:0px;
+        color: #293251;
+        text-align: center;
+        font-size: 0.5em;
+    }
+    .location img{
+        width: 5px;
+        height: 5px;
+
+    }
+    
+    .infos{
+        display: flex;
+        flex-direction: row;
+    }
+    .pluviometrie{
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+       }
+       .pluviometrie p{
+        padding: 10px;
+       float:left;
+       font-size: 0.5em;
+       }
+       .pluviometrie img{
+           width: 5px;
+           height: 5px;
+       }
+       .humidity{
+       width: 100px;
+       padding: 10px;
+       float: right;
+       }
+       .humidity img{
+           width: 5px;
+           height: 5px;
+       }
+       .humidity p {
+        float:right;
+        padding: 0;
+        font-size: 0.5em;
+        margin-right: 10px; 
+      
+       }
+   
+}

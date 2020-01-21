@@ -1,0 +1,13 @@
+
+<div class="item" [id]="index">
+    <div class="title"><p>{{receiveHeure}}</p></div>
+    <div class="weather"> 
+      <div class="temperature"><div class="weather-icon"><img [src]="receiveIcon" alt="?"> </div><p> {{receiveTemp}} °</p><span>C</span></div>
+      <div class="description"><p> {{receiveDesc}} </p></div>
+      <div class="infos">
+        <div class="pluviometrie"><p> {{receivePluv}} mm/h</p><img src="../../assets/humidity.png" alt="?" width="25xp" height="25px"><p style="float: right;"></div>
+        <div class="humidity"><img src="../../assets/humidity.png" alt="?" width="25xp" height="25px" style="float: right;"><p style="float: right;"> {{receiveHum}} g/m3 </p></div>
+      </div>
+    </div>
+    <div class="location"><img src="../../assets/maps-and-flags.png" alt="?"><p> {{receiveLocation}} </p></div>
+</div>

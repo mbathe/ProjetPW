@@ -1,0 +1,11 @@
+
+<div class="item" [id]="index" (load)="charge1()" (click)="charger()">
+    <div class="title"><p>{{heure}}</p></div>
+    <div class="weather"> 
+      <div class="weather-icon"><img [src]="url" alt="?"> </div>
+      <div class="temperature"><p>{{temperature}} °<span>C</span></p></div>
+      <div class="description"><p>  {{description}}  </p></div>
+      <div class="location"><p> ♥ {{location}} </p></div>
+    </div>
+</div>
+
